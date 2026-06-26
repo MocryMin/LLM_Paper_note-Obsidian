@@ -1,0 +1,14 @@
+# Paper PDFs — reference via arXiv links in notes / paper bank.md instead
+paper bank/
+
+# Obsidian: track only the minimum shared settings.
+# Ignore everything under .obsidian/, then allow back the few we want.
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
