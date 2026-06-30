@@ -12,7 +12,7 @@ next: [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head 
 1. OpenAI Scaling Law(2020) failed because of the emergence of **inference**. *Small model infers faster*.([[Training Compute-Optimal Large Language Models]])  
 2. Small model but larger training copra could still improve.  
 
-# Modification to Transformer #lazytag
+# Modification to Transformer
 
 ### 1. Pre-RMSNorm
 *Paper ref: [arXiv:1910.07467](https://arxiv.org/abs/1910.07467)*
@@ -26,14 +26,14 @@ Advantage v.s. traditional LN(*see [[Attention Is All You Need]])*:
 	**Less calculation cost**: Traverse the input $x$ only once;  
 	**Less parameters**: Removing $\beta$ saves half the parameters in LN.  
 
-*Undertanding: Why RMSNorm works?  
+*Unauthorized Undertanding: Why RMSNorm works?  
 	Traditional LN used linear normalization to guarantee the **scaling invariance**, with which gradent could stay stable when layer outputs are on different scales. So scaling is more important than biasing. RMS kept this feature but did a mathamatical optimization.*  
 
 ### 2. SwiGLU
-*Paper ref: [arXiv:2002.05202](https://arxiv.org/abs/2002.05202)*
+See: [[GLU Variants Improve Transformer]]
 
 ### 3. RoPE
-*Paper ref: [arXiv:2104.09864](https://arxiv.org/abs/2104.09864)*
+See: [[Roformer-Enhanced Transformer With Rotary Position Embedding]]
 
 # Worth Noticing  
 
