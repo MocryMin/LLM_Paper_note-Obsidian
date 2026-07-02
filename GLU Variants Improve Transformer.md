@@ -27,7 +27,7 @@ $$\text{Swish}_{\beta}(x) = x \cdot \sigma(\beta x) = \frac{x}{1 + e^{-\beta x}}
 	SiLU looks like GELU in shape but only contains an $e^x$ to calculate, which is much more easier that GELU.  
 	A visualized comparison(AIGC):*  
 
-![ReLU vs GELU vs SiLU comparison](Pasted%20image%2020260630142533.png)
+![ReLU vs GELU vs SiLU comparison](NSM%28note%20support%20materials%29/img/Pasted%20image%2020260630142533.png)
 
 
 # GLU Family

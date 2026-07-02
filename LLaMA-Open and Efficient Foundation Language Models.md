@@ -42,6 +42,6 @@ See: [[Roformer-Enhanced Transformer With Rotary Position Embedding]]
 
 **Training Scaling:**
 
-![Training scaling curves](Pasted%20image%2020260626145557.png)
+![Training scaling curves](NSM%28note%20support%20materials%29/img/Pasted%20image%2020260626145557.png)
 
 #lazytag The **benchmarks**(might be used later in my research)
